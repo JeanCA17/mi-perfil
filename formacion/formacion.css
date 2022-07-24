@@ -1,0 +1,38 @@
+.titulo__formacion{
+    text-align: center;
+    
+}
+
+
+.ucr{
+    width: 300px;
+
+}
+
+.alura {
+    width: 300px;
+}
+
+.formaciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5rem 2.5rem;
+   
+}
+
+.textos {
+    margin-top: 2.7rem;
+}
+
+#formacion{
+    background-color: #EAF2FD;
+}
+
+@media screen and (max-width: 400px) {
+    .formaciones{
+        text-align: center;
+        display: inline;
+    }
+    
+}

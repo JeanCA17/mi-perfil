@@ -1,0 +1,30 @@
+.titulo__skills{
+    margin-top: 2.5rem;
+    text-align: center;
+
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5rem 2.5rem;
+}
+
+.img__cisco{
+   width: 24px;
+   height: 24px;
+}
+
+#skills{
+    background: #f9f9f9;
+}
+
+
+@media screen and (max-width: 400px) {
+    .skills{
+        flex-direction: column;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,13 @@
+.imagen__perfil{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 1rem;
+    
+}
+
+@media screen and (max-width: 400px) {
+    .imagen__perfil{
+      margin: 0 auto;
+      display: inline;
+    }
+}

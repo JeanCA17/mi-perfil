@@ -1,0 +1,7 @@
+.imagen{
+    width: 250px;
+    height: 250px;
+    border-radius: 130px;
+    border: 10px solid #666;
+    margin-top: -130px;
+}

@@ -1,0 +1,35 @@
+.titulo__hobbies{
+    margin-top: 2.5rem;
+    text-align: center;
+}
+.gym{
+    width: 24px;
+    height: 24px;
+    
+}
+
+.control{
+    width: 24px;
+    height: 24px;
+}
+
+.hobbies{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5rem 2.5rem;
+    
+}
+
+#hobbies{
+    background: #f9f9f9;
+}
+
+@media screen and (max-width: 400px) {
+    .hobbies{
+        text-align: center;
+        flex-direction: column;
+        margin: 0 auto;
+        font-size: 2.5rem;
+    }
+}
